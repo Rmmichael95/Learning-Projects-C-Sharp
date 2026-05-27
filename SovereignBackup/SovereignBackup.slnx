@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/SovereignBackup.App/SovereignBackup.App.csproj" />
+    <Project Path="src/SovereignBackup.Core/SovereignBackup.Core.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/SovereignBackup.Tests/SovereignBackup.Tests.csproj" />
+  </Folder>
+</Solution>

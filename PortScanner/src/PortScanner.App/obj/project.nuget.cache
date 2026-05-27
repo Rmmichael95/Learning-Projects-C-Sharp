@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "H1ojLV81cr8=",
+  "success": true,
+  "projectFilePath": "/home/ryanm/projects/Programming/C-Sharp/LearningProjects/PortScanner/src/PortScanner.App/PortScanner.App.csproj",
+  "expectedPackageFiles": [
+    "/home/ryanm/.local/cache/NuGetPackages/microsoft.aspnetcore.app.ref/10.0.8/microsoft.aspnetcore.app.ref.10.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

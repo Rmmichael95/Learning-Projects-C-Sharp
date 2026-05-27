@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/LogAnalyzer.App/LogAnalyzer.App.csproj" />
+    <Project Path="src/LogAnalyzer.Core/LogAnalyzer.Core.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/LogAnalyzer.Tests/LogAnalyzer.Tests.csproj" />
+  </Folder>
+</Solution>

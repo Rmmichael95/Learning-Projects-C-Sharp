@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/ResourcePoller.App/ResourcePoller.App.csproj" />
+    <Project Path="src/ResourcePoller.Core/ResourcePoller.Core.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/ResourcePoller.Tests/ResourcePoller.Tests.csproj" />
+  </Folder>
+</Solution>

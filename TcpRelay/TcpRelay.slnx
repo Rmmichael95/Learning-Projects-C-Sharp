@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/TcpRelay.App/TcpRelay.App.csproj" />
+    <Project Path="src/TcpRelay.Core/TcpRelay.Core.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/TcpRelay.Tests/TcpRelay.Tests.csproj" />
+  </Folder>
+</Solution>
