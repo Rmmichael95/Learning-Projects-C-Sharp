@@ -11,7 +11,7 @@ This repository contains a progressive sequence of hand-coded C# projects. It es
 1. **System Resource Poller:** Continuous loops and basic OS interoperability (`/proc` text parsing).
 2. **Server Log Analyzer:** Complex string manipulation and basic data aggregation (Dictionaries).
 
-### Phase 2: Abstraction, State, & Sockets (Dontrain: Deep Dive into C, Getting Started with LINQ / Deep Dive into LINQ, Getting Started with Asynchronous Programming in .NET)
+### Phase 2: Abstraction, State, & Sockets (Domtrain: Deep Dive into C, Getting Started with LINQ / Deep Dive into LINQ, Getting Started with Asynchronous Programming in .NET)
 
 3. **Structured Data Vault:** Interfaces, Dependency Injection (IoC), and JSON serialization.
 4. **Local Port Scanner:** Basic asynchronous TCP sockets and concurrency limits (`Task.WhenAll`).
