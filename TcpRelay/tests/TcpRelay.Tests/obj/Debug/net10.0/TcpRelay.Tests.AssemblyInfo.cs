@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TcpRelay.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ffa6d5263ba97e8dbb5f7251a1787b411d1d77a7")]
 [assembly: System.Reflection.AssemblyProductAttribute("TcpRelay.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TcpRelay.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

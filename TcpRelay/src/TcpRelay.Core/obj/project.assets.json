@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ryanm/projects/Programming/C-Sharp/LearningProjects/TcpRelay/src/TcpRelay.Core/TcpRelay.Core.csproj",
+      "projectUniqueName": "/home/ryanm/.local/src/Learning-Projects-C-Sharp/TcpRelay/src/TcpRelay.Core/TcpRelay.Core.csproj",
       "projectName": "TcpRelay.Core",
-      "projectPath": "/home/ryanm/projects/Programming/C-Sharp/LearningProjects/TcpRelay/src/TcpRelay.Core/TcpRelay.Core.csproj",
+      "projectPath": "/home/ryanm/.local/src/Learning-Projects-C-Sharp/TcpRelay/src/TcpRelay.Core/TcpRelay.Core.csproj",
       "packagesPath": "/home/ryanm/.local/cache/NuGetPackages",
-      "outputPath": "/home/ryanm/projects/Programming/C-Sharp/LearningProjects/TcpRelay/src/TcpRelay.Core/obj/",
+      "outputPath": "/home/ryanm/.local/src/Learning-Projects-C-Sharp/TcpRelay/src/TcpRelay.Core/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/ryanm/.local/share/dotnet/.nuget/NuGet/NuGet.Config"
@@ -63,7 +63,7 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[10.0.8, 10.0.8]"
+            "version": "[10.0.11, 10.0.11]"
           }
         ],
         "frameworkReferences": {
@@ -71,7 +71,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.108/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.111/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

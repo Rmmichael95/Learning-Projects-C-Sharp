@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/ryanm/projects/Programming/C-Sharp/LearningProjects/PortScanner/src/PortScanner.Core/PortScanner.Core.csproj": {}
+    "/home/ryanm/.local/src/Learning-Projects-C-Sharp/PortScanner/src/PortScanner.Core/PortScanner.Core.csproj": {}
   },
   "projects": {
-    "/home/ryanm/projects/Programming/C-Sharp/LearningProjects/PortScanner/src/PortScanner.Core/PortScanner.Core.csproj": {
+    "/home/ryanm/.local/src/Learning-Projects-C-Sharp/PortScanner/src/PortScanner.Core/PortScanner.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ryanm/projects/Programming/C-Sharp/LearningProjects/PortScanner/src/PortScanner.Core/PortScanner.Core.csproj",
+        "projectUniqueName": "/home/ryanm/.local/src/Learning-Projects-C-Sharp/PortScanner/src/PortScanner.Core/PortScanner.Core.csproj",
         "projectName": "PortScanner.Core",
-        "projectPath": "/home/ryanm/projects/Programming/C-Sharp/LearningProjects/PortScanner/src/PortScanner.Core/PortScanner.Core.csproj",
+        "projectPath": "/home/ryanm/.local/src/Learning-Projects-C-Sharp/PortScanner/src/PortScanner.Core/PortScanner.Core.csproj",
         "packagesPath": "/home/ryanm/.local/cache/NuGetPackages",
-        "outputPath": "/home/ryanm/projects/Programming/C-Sharp/LearningProjects/PortScanner/src/PortScanner.Core/obj/",
+        "outputPath": "/home/ryanm/.local/src/Learning-Projects-C-Sharp/PortScanner/src/PortScanner.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ryanm/.local/share/dotnet/.nuget/NuGet/NuGet.Config"
@@ -57,7 +57,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[10.0.8, 10.0.8]"
+              "version": "[10.0.11, 10.0.11]"
             }
           ],
           "frameworkReferences": {
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.108/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.111/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
