@@ -1,0 +1,12 @@
+/home/ryanm/.local/src/Learning-Projects-C-Sharp/ResourcePoller/src/ResourcePoller.Core/bin/Debug/net10.0/ResourcePoller.Core.deps.json
+/home/ryanm/.local/src/Learning-Projects-C-Sharp/ResourcePoller/src/ResourcePoller.Core/bin/Debug/net10.0/ResourcePoller.Core.dll
+/home/ryanm/.local/src/Learning-Projects-C-Sharp/ResourcePoller/src/ResourcePoller.Core/bin/Debug/net10.0/ResourcePoller.Core.pdb
+/home/ryanm/.local/src/Learning-Projects-C-Sharp/ResourcePoller/src/ResourcePoller.Core/obj/Debug/net10.0/ResourcePoller.Core.GeneratedMSBuildEditorConfig.editorconfig
+/home/ryanm/.local/src/Learning-Projects-C-Sharp/ResourcePoller/src/ResourcePoller.Core/obj/Debug/net10.0/ResourcePoller.Core.AssemblyInfoInputs.cache
+/home/ryanm/.local/src/Learning-Projects-C-Sharp/ResourcePoller/src/ResourcePoller.Core/obj/Debug/net10.0/ResourcePoller.Core.AssemblyInfo.cs
+/home/ryanm/.local/src/Learning-Projects-C-Sharp/ResourcePoller/src/ResourcePoller.Core/obj/Debug/net10.0/ResourcePoller.Core.csproj.CoreCompileInputs.cache
+/home/ryanm/.local/src/Learning-Projects-C-Sharp/ResourcePoller/src/ResourcePoller.Core/obj/Debug/net10.0/ResourcePoller.Core.sourcelink.json
+/home/ryanm/.local/src/Learning-Projects-C-Sharp/ResourcePoller/src/ResourcePoller.Core/obj/Debug/net10.0/ResourcePoller.Core.dll
+/home/ryanm/.local/src/Learning-Projects-C-Sharp/ResourcePoller/src/ResourcePoller.Core/obj/Debug/net10.0/refint/ResourcePoller.Core.dll
+/home/ryanm/.local/src/Learning-Projects-C-Sharp/ResourcePoller/src/ResourcePoller.Core/obj/Debug/net10.0/ResourcePoller.Core.pdb
+/home/ryanm/.local/src/Learning-Projects-C-Sharp/ResourcePoller/src/ResourcePoller.Core/obj/Debug/net10.0/ref/ResourcePoller.Core.dll

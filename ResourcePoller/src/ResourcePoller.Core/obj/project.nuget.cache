@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "akvfSdY/0Bg=",
+  "dgSpecHash": "ERiANoMDRgQ=",
   "success": true,
-  "projectFilePath": "/home/ryanm/projects/Programming/C-Sharp/LearningProjects/ResourcePoller/src/ResourcePoller.Core/ResourcePoller.Core.csproj",
+  "projectFilePath": "/home/ryanm/.local/src/Learning-Projects-C-Sharp/ResourcePoller/src/ResourcePoller.Core/ResourcePoller.Core.csproj",
   "expectedPackageFiles": [
-    "/home/ryanm/.local/cache/NuGetPackages/microsoft.aspnetcore.app.ref/10.0.8/microsoft.aspnetcore.app.ref.10.0.8.nupkg.sha512"
+    "/home/ryanm/.local/cache/NuGetPackages/microsoft.aspnetcore.app.ref/10.0.11/microsoft.aspnetcore.app.ref.10.0.11.nupkg.sha512"
   ],
   "logs": []
 }
