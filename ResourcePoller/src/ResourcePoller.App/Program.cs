@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace ResourcePoller.App;
+
+public static class Program
+{
+    public static async Task Main()
+    {
+        await PollerDaemon.DaemonResourcePrinter();
+    }
+}
