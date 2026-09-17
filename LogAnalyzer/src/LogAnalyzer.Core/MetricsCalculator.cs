@@ -22,14 +22,31 @@ namespace LogAnalyzer.Core
         public Dictionary<string, int> GetTopIpAddresses(int limit = 5)
         {
             // TODO: Group the _entries by IpAddress, count them, sort descending, and take the top 'limit'.
+            // Dictionary<string, int> result = [];
+            // foreach (var entry in _entries)
+            // {
+            //     if (result.TryGetValue(entry.IpAddress, out var count))
+            //         result[entry.IpAddress] = count + 1;
+            //     else
+            //         result.Add(entry.IpAddress, 1);
+            // }
+            // return result.OrderByDescending(entry => entry.Value).Take(limit).ToDictionary();
+
+            // return _entries
+            //     .GroupBy(entry => entry.IpAddress)
+            //     .Select(group => new { IpAddress = group.Key, Count = group.Count() })
+            //     .OrderByDescending(entry => entry.Count)
+            //     .Take(limit)
+            //     .ToDictionary(group => group.IpAddress, group => group.Count);
+
             return _entries
                 .GroupBy(
                     entry => entry.IpAddress,
-                    (ipAddress, entries) => new { Key = ipAddress, Count = entries.Count() }
+                    (ipAddress, entries) => new { IpAddress = ipAddress, Count = entries.Count() }
                 )
                 .OrderByDescending(entry => entry.Count)
                 .Take(limit)
-                .ToDictionary(group => group.Key, group => group.Count);
+                .ToDictionary(group => group.IpAddress, group => group.Count);
         }
 
         /// <summary>
@@ -38,7 +55,7 @@ namespace LogAnalyzer.Core
         public int GetTotalRequestsByStatusCode(int statusCode)
         {
             // TODO: Filter the _entries where StatusCode matches the target, and return the count.
-            throw new System.NotImplementedException();
+            return _entries.Count(entry => entry.StatusCode == statusCode);
         }
 
         /// <summary>
@@ -47,7 +64,7 @@ namespace LogAnalyzer.Core
         public long GetTotalBytesTransferred()
         {
             // TODO: Sum the BytesSent property across all entries.
-            throw new System.NotImplementedException();
+            return _entries.Sum(entry => entry.BytesSent);
         }
     }
 }
