@@ -17,13 +17,19 @@ namespace DataVault.Core
         public VaultRecord CreateNew(string title, string payload)
         {
             // TODO: Instantiate a new VaultRecord, pass it to _repository.SaveRecord(), and return it.
-            throw new NotImplementedException();
+            VaultRecord record = new() { Title = title, Payload = payload };
+            _repository.SaveRecord(record);
+            return record;
         }
 
         public IEnumerable<VaultRecord> SearchByTitle(string searchTerm)
         {
             // TODO: Use LINQ to filter _repository.GetAllRecords() where Title contains the searchTerm.
-            throw new NotImplementedException();
+            return _repository
+                .GetAllRecords()
+                .Where(record =>
+                    record.Title.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)
+                );
         }
     }
 }

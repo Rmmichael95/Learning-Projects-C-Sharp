@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DataVault.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ffa6d5263ba97e8dbb5f7251a1787b411d1d77a7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c38f97c88589407c14ef87a3b5b27a1956352a66")]
 [assembly: System.Reflection.AssemblyProductAttribute("DataVault.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DataVault.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

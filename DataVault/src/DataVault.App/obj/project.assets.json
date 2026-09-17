@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "DataVault.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/DataVault.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataVault.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "DataVault.Core/1.0.0": {
+      "type": "project",
+      "path": "../DataVault.Core/DataVault.Core.csproj",
+      "msbuildProject": "../DataVault.Core/DataVault.Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "DataVault.Core >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/home/ryanm/.local/cache/NuGetPackages": {}
@@ -13,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ryanm/projects/Programming/C-Sharp/LearningProjects/DataVault/src/DataVault.App/DataVault.App.csproj",
+      "projectUniqueName": "/home/ryanm/.local/src/Learning-Projects-C-Sharp/DataVault/src/DataVault.App/DataVault.App.csproj",
       "projectName": "DataVault.App",
-      "projectPath": "/home/ryanm/projects/Programming/C-Sharp/LearningProjects/DataVault/src/DataVault.App/DataVault.App.csproj",
+      "projectPath": "/home/ryanm/.local/src/Learning-Projects-C-Sharp/DataVault/src/DataVault.App/DataVault.App.csproj",
       "packagesPath": "/home/ryanm/.local/cache/NuGetPackages",
-      "outputPath": "/home/ryanm/projects/Programming/C-Sharp/LearningProjects/DataVault/src/DataVault.App/obj/",
+      "outputPath": "/home/ryanm/.local/src/Learning-Projects-C-Sharp/DataVault/src/DataVault.App/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/ryanm/.local/share/dotnet/.nuget/NuGet/NuGet.Config"
@@ -31,7 +50,11 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/ryanm/.local/src/Learning-Projects-C-Sharp/DataVault/src/DataVault.Core/DataVault.Core.csproj": {
+              "projectPath": "/home/ryanm/.local/src/Learning-Projects-C-Sharp/DataVault/src/DataVault.Core/DataVault.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -63,7 +86,7 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[10.0.8, 10.0.8]"
+            "version": "[10.0.12, 10.0.12]"
           }
         ],
         "frameworkReferences": {
@@ -71,7 +94,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.108/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.112/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

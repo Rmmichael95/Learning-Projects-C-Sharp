@@ -9,7 +9,7 @@ namespace DataVault.Tests
     // 1. Create a fake repository purely for testing purposes
     public class MockRepository : IDataRepository
     {
-        private readonly List<VaultRecord> _records = new();
+        private readonly List<VaultRecord> _records = [];
 
         public void SaveRecord(VaultRecord record) => _records.Add(record);
 
