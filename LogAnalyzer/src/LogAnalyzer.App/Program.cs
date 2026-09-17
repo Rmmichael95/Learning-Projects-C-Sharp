@@ -1,6 +1,6 @@
-﻿/using System;
-using System.IO;
+﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using LogAnalyzer.Core;
 
 namespace LogAnalyzer.App
@@ -15,9 +15,8 @@ namespace LogAnalyzer.App
             // TODO: 4. Pass each line to LogParser.ParseLine(), collecting the valid LogEntry objects into a List.
             // TODO: 5. Pass the List to MetricsCalculator.
             // TODO: 6. Format the results and print a beautiful text-based dashboard to the console.
-            
+
             Console.WriteLine("Log Analyzer CLI started.");
         }
     }
-}/ See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+}

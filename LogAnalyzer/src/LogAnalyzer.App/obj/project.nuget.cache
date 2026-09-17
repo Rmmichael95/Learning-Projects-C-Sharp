@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "qMtELL3RLFc=",
+  "dgSpecHash": "mi/rWIy/oyo=",
   "success": true,
-  "projectFilePath": "/home/ryanm/projects/Programming/C-Sharp/LearningProjects/LogAnalyzer/src/LogAnalyzer.App/LogAnalyzer.App.csproj",
+  "projectFilePath": "/home/ryanm/.local/src/Learning-Projects-C-Sharp/LogAnalyzer/src/LogAnalyzer.App/LogAnalyzer.App.csproj",
   "expectedPackageFiles": [
-    "/home/ryanm/.local/cache/NuGetPackages/microsoft.aspnetcore.app.ref/10.0.8/microsoft.aspnetcore.app.ref.10.0.8.nupkg.sha512"
+    "/home/ryanm/.local/cache/NuGetPackages/microsoft.aspnetcore.app.ref/10.0.12/microsoft.aspnetcore.app.ref.10.0.12.nupkg.sha512"
   ],
   "logs": []
 }

@@ -90,11 +90,11 @@
 /home/ryanm/.local/src/Learning-Projects-C-Sharp/ResourcePoller/tests/ResourcePoller.Tests/obj/Debug/net10.0/ResourcePoller.Tests.GeneratedMSBuildEditorConfig.editorconfig
 /home/ryanm/.local/src/Learning-Projects-C-Sharp/ResourcePoller/tests/ResourcePoller.Tests/obj/Debug/net10.0/ResourcePoller.Tests.AssemblyInfoInputs.cache
 /home/ryanm/.local/src/Learning-Projects-C-Sharp/ResourcePoller/tests/ResourcePoller.Tests/obj/Debug/net10.0/ResourcePoller.Tests.AssemblyInfo.cs
-/home/ryanm/.local/src/Learning-Projects-C-Sharp/ResourcePoller/tests/ResourcePoller.Tests/obj/Debug/net10.0/ResourcePoller.Tests.csproj.CoreCompileInputs.cache
-/home/ryanm/.local/src/Learning-Projects-C-Sharp/ResourcePoller/tests/ResourcePoller.Tests/obj/Debug/net10.0/ResourcePoller.Tests.sourcelink.json
 /home/ryanm/.local/src/Learning-Projects-C-Sharp/ResourcePoller/tests/ResourcePoller.Tests/obj/Debug/net10.0/Resource.0973FCBA.Up2Date
 /home/ryanm/.local/src/Learning-Projects-C-Sharp/ResourcePoller/tests/ResourcePoller.Tests/obj/Debug/net10.0/ResourcePoller.Tests.dll
 /home/ryanm/.local/src/Learning-Projects-C-Sharp/ResourcePoller/tests/ResourcePoller.Tests/obj/Debug/net10.0/refint/ResourcePoller.Tests.dll
 /home/ryanm/.local/src/Learning-Projects-C-Sharp/ResourcePoller/tests/ResourcePoller.Tests/obj/Debug/net10.0/ResourcePoller.Tests.pdb
 /home/ryanm/.local/src/Learning-Projects-C-Sharp/ResourcePoller/tests/ResourcePoller.Tests/obj/Debug/net10.0/ResourcePoller.Tests.genruntimeconfig.cache
 /home/ryanm/.local/src/Learning-Projects-C-Sharp/ResourcePoller/tests/ResourcePoller.Tests/obj/Debug/net10.0/ref/ResourcePoller.Tests.dll
+/home/ryanm/.local/src/Learning-Projects-C-Sharp/ResourcePoller/tests/ResourcePoller.Tests/obj/Debug/net10.0/ResourcePoller.Tests.csproj.CoreCompileInputs.cache
+/home/ryanm/.local/src/Learning-Projects-C-Sharp/ResourcePoller/tests/ResourcePoller.Tests/obj/Debug/net10.0/ResourcePoller.Tests.sourcelink.json
