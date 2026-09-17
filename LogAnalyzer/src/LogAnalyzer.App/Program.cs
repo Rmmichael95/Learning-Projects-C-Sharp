@@ -17,6 +17,26 @@ namespace LogAnalyzer.App
             // TODO: 6. Format the results and print a beautiful text-based dashboard to the console.
 
             Console.WriteLine("Log Analyzer CLI started.");
+
+            if (args.Length == 0 || string.IsNullOrWhiteSpace(args[0]) || !File.Exists(args[0]))
+                throw new FileNotFoundException("File not found.");
+
+            List<LogEntry> logs = [];
+            foreach (var line in File.ReadLines(args[0]))
+            {
+                try
+                {
+                    logs.Add(LogParser.ParseLine(line));
+                }
+                catch (FormatException)
+                {
+                    Console.WriteLine("Invalid log found!");
+                }
+            }
+            MetricsCalculator calc = new(logs);
+            Console.WriteLine(
+                $"\nValid Logs: {logs.Count}\nTop IP: {calc.GetTopIpAddresses(1)}\nSeccessful Connections: {calc.GetTotalRequestsByStatusCode(200)}\nTotal Bytes Sent: {calc.GetTotalBytesTransferred()}"
+            );
         }
     }
 }

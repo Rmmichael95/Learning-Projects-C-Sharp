@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Analyze sample log": {
+      "commandName": "Project",
+      "commandLineArgs": "log-analyzer-test.log"
+    }
+  }
+}
