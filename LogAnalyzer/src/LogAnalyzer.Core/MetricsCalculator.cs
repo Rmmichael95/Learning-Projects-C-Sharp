@@ -22,7 +22,14 @@ namespace LogAnalyzer.Core
         public Dictionary<string, int> GetTopIpAddresses(int limit = 5)
         {
             // TODO: Group the _entries by IpAddress, count them, sort descending, and take the top 'limit'.
-            throw new System.NotImplementedException();
+            return _entries
+                .GroupBy(
+                    entry => entry.IpAddress,
+                    (ipAddress, entries) => new { Key = ipAddress, Count = entries.Count() }
+                )
+                .OrderByDescending(entry => entry.Count)
+                .Take(limit)
+                .ToDictionary(group => group.Key, group => group.Count);
         }
 
         /// <summary>
