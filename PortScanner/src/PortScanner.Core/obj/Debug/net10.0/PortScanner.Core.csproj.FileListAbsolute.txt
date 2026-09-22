@@ -1,0 +1,12 @@
+/home/ryanm/.local/src/Learning-Projects-C-Sharp/PortScanner/src/PortScanner.Core/bin/Debug/net10.0/PortScanner.Core.deps.json
+/home/ryanm/.local/src/Learning-Projects-C-Sharp/PortScanner/src/PortScanner.Core/bin/Debug/net10.0/PortScanner.Core.dll
+/home/ryanm/.local/src/Learning-Projects-C-Sharp/PortScanner/src/PortScanner.Core/bin/Debug/net10.0/PortScanner.Core.pdb
+/home/ryanm/.local/src/Learning-Projects-C-Sharp/PortScanner/src/PortScanner.Core/obj/Debug/net10.0/PortScanner.Core.GeneratedMSBuildEditorConfig.editorconfig
+/home/ryanm/.local/src/Learning-Projects-C-Sharp/PortScanner/src/PortScanner.Core/obj/Debug/net10.0/PortScanner.Core.AssemblyInfoInputs.cache
+/home/ryanm/.local/src/Learning-Projects-C-Sharp/PortScanner/src/PortScanner.Core/obj/Debug/net10.0/PortScanner.Core.AssemblyInfo.cs
+/home/ryanm/.local/src/Learning-Projects-C-Sharp/PortScanner/src/PortScanner.Core/obj/Debug/net10.0/PortScanner.Core.csproj.CoreCompileInputs.cache
+/home/ryanm/.local/src/Learning-Projects-C-Sharp/PortScanner/src/PortScanner.Core/obj/Debug/net10.0/PortScanner.Core.sourcelink.json
+/home/ryanm/.local/src/Learning-Projects-C-Sharp/PortScanner/src/PortScanner.Core/obj/Debug/net10.0/PortScanner.Core.dll
+/home/ryanm/.local/src/Learning-Projects-C-Sharp/PortScanner/src/PortScanner.Core/obj/Debug/net10.0/refint/PortScanner.Core.dll
+/home/ryanm/.local/src/Learning-Projects-C-Sharp/PortScanner/src/PortScanner.Core/obj/Debug/net10.0/PortScanner.Core.pdb
+/home/ryanm/.local/src/Learning-Projects-C-Sharp/PortScanner/src/PortScanner.Core/obj/Debug/net10.0/ref/PortScanner.Core.dll

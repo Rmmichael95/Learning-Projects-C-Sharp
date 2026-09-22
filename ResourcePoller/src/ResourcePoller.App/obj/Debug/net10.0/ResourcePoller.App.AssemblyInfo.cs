@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ResourcePoller.App")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a0c7df1c20362559d66dc01230813cb775ea5d9d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d495a3b262614c5724abe4061c9b81645b7a8cc5")]
 [assembly: System.Reflection.AssemblyProductAttribute("ResourcePoller.App")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ResourcePoller.App")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

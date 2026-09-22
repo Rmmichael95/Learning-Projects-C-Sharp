@@ -20,10 +20,39 @@ namespace PortScanner.Tests
             // TODO: Implement your BatchManager logic here or call it.
             // Simulate work that increments 'activeTasks', checks if it exceeds max,
             // records the peak, delays for 10ms, and then decrements 'activeTasks'.
+            BatchManager bManager = new(maxConcurrency);
+
+            List<Task> tasks = [];
+            for (int i = 0; i < 100; i++)
+            {
+                tasks.Add(
+                    bManager.RunAsync(async () =>
+                    {
+                        lock (lockObject)
+                        {
+                            activeTasks++;
+                            maxActiveTasksObserved =
+                                activeTasks > maxActiveTasksObserved
+                                    ? activeTasks
+                                    : maxActiveTasksObserved;
+                        }
+
+                        await Task.Delay(10);
+
+                        lock (lockObject)
+                        {
+                            activeTasks--;
+                        }
+                    })
+                );
+            }
+            await Task.WhenAll(tasks);
 
             // Assert
-            // Assert.True(maxActiveTasksObserved <= maxConcurrency,
-            //    "The batch manager allowed too many threads to execute at once!");
+            Assert.True(
+                maxActiveTasksObserved <= maxConcurrency,
+                "The batch manager allowed too many threads to execute at once!"
+            );
         }
     }
 }

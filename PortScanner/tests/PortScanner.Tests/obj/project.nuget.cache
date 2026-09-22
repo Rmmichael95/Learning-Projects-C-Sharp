@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WWfxdLwsZjU=",
+  "dgSpecHash": "V7fpPdg4vEo=",
   "success": true,
   "projectFilePath": "/home/ryanm/.local/src/Learning-Projects-C-Sharp/PortScanner/tests/PortScanner.Tests/PortScanner.Tests.csproj",
   "expectedPackageFiles": [
@@ -18,7 +18,7 @@
     "/home/ryanm/.local/cache/NuGetPackages/xunit.extensibility.core/2.9.3/xunit.extensibility.core.2.9.3.nupkg.sha512",
     "/home/ryanm/.local/cache/NuGetPackages/xunit.extensibility.execution/2.9.3/xunit.extensibility.execution.2.9.3.nupkg.sha512",
     "/home/ryanm/.local/cache/NuGetPackages/xunit.runner.visualstudio/3.1.4/xunit.runner.visualstudio.3.1.4.nupkg.sha512",
-    "/home/ryanm/.local/cache/NuGetPackages/microsoft.aspnetcore.app.ref/10.0.11/microsoft.aspnetcore.app.ref.10.0.11.nupkg.sha512"
+    "/home/ryanm/.local/cache/NuGetPackages/microsoft.aspnetcore.app.ref/10.0.12/microsoft.aspnetcore.app.ref.10.0.12.nupkg.sha512"
   ],
   "logs": []
 }

@@ -25,7 +25,25 @@ namespace PortScanner.Core
             // TODO: 6. Wrap in a try/catch. If an exception fires (Connection Refused), it's closed.
             // TODO: 7. ALWAYS ensure the TcpClient is cleanly Disposed/Closed in a finally block.
 
-            throw new NotImplementedException();
+            using TcpClient tcpClient = new();
+            try
+            {
+                Task connectionTask = tcpClient.ConnectAsync(ipAddress, port);
+                Task completedTask = await Task.WhenAny(connectionTask, Task.Delay(timeoutMs));
+                if (completedTask == connectionTask && connectionTask.IsCompletedSuccessfully)
+                {
+                    result.IsOpen = true;
+                }
+                else
+                {
+                    result.IsOpen = false;
+                }
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Some connection problem");
+            }
+            return result;
         }
     }
 }
